@@ -1,0 +1,350 @@
+repo_name: notcrydiedgod/halo
+report_id: 6f96676f811e3a421fa81bc279a03d80
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-01T05:21:04+00:00'
+requested_by: guqing
+provider: github
+branch: main
+detected_tools_count: 28
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/notcrydiedgod/halo
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/src/main/resources/schema-h2.sql
+  detection_source: src/main/resources/schema-h2.sql
+  last_updated_by: John Niang
+  last_updated_on: 2022-08-17 02:56:11.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: John Niang
+  last_updated_on: 2022-11-11 10:50:15.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: John Niang
+  last_updated_on: 2022-08-17 02:56:11.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/notcrydiedgod/halo
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/notcrydiedgod/halo
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/.github/workflows/halo.yaml
+  detection_source: ".github/workflows/halo.yaml"
+  last_updated_by: John Niang
+  last_updated_on: 2022-07-19 15:47:36.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: guqing
+  last_updated_on: 2022-03-04 07:04:11.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/notcrydiedgod/halo
+  detection_source: Repo Metadata
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: John Niang
+  last_updated_on: 2022-10-26 04:24:09.000000000 Z
+- name: io.projectreactor:reactor-test
+  description: Reactor Test support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: John Niang
+  last_updated_on: 2022-08-17 02:56:11.000000000 Z
+- name: net.bytebuddy:byte-buddy
+  description: Byte Buddy is a Java library for creating Java classes at run time
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: John Niang
+  last_updated_on: 2022-07-22 03:13:50.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: John Niang
+  last_updated_on: 2022-11-11 16:12:13.000000000 Z
+- name: org.apache.lucene:lucene-core
+  description: Apache Lucene Java Core
+  version: 9.4.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: John Niang
+  last_updated_on: 2022-11-11 16:12:13.000000000 Z
+- name: org.apache.lucene:lucene-highlighter
+  description: This is the highlighter for apache lucene java
+  version: 9.4.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: John Niang
+  last_updated_on: 2022-11-11 16:12:13.000000000 Z
+- name: org.apache.lucene:lucene-queryparser
+  description: Lucene QueryParsers module
+  version: 9.4.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: John Niang
+  last_updated_on: 2022-11-11 16:12:13.000000000 Z
+- name: org.jsoup:jsoup
+  description: Jsoup is a Java library for working with real-world HTML
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: John Niang
+  last_updated_on: 2022-11-11 16:12:13.000000000 Z
+- name: org.postgresql:postgresql
+  description: The PostgreSQL Driver JDBC4
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: John Niang
+  last_updated_on: 2022-11-11 16:12:13.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: John Niang
+  last_updated_on: 2022-11-11 16:12:13.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: John Niang
+  last_updated_on: 2022-11-11 16:12:13.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: John Niang
+  last_updated_on: 2022-11-11 16:12:13.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-mail
+  description: Starter for using Java Mail and Spring Framework's email sending support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: John Niang
+  last_updated_on: 2022-11-11 16:12:13.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: John Niang
+  last_updated_on: 2022-11-11 16:12:13.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: John Niang
+  last_updated_on: 2022-11-11 16:12:13.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-thymeleaf
+  description: Starter for building MVC web applications using Thymeleaf views
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: John Niang
+  last_updated_on: 2022-11-11 16:12:13.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-validation
+  description: Starter for using Java Bean Validation with Hibernate Validator
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: John Niang
+  last_updated_on: 2022-11-11 16:12:13.000000000 Z
+- name: org.springframework.integration:spring-integration-core
+  description: Spring Integration Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: John Niang
+  last_updated_on: 2022-11-11 16:12:13.000000000 Z
+- name: org.springframework.security:spring-security-test
+  description: Spring-security-test
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/notcrydiedgod/halo/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: John Niang
+  last_updated_on: 2022-11-11 16:12:13.000000000 Z
